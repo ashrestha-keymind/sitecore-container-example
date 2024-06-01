@@ -4,9 +4,12 @@
 - Image list: https://raw.githubusercontent.com/Sitecore/docker-images/master/tags/sitecore-tags.md
 
 ## Getting Started
+
+### Initial setup
 - .\compose-init.ps1 -LicenseXmlPath "C:\Projects\license.xml"
     > Update the license path as needed.
 
+### Run the container
 - Execute the docker compose command to start the containers.
     > docker-compose up -d 
 
@@ -42,4 +45,20 @@ This means you can access your Sitecore Experience Platform - Single (XP0) conta
         - Type 'localhost'.
         - Select `Delete`.
 
+## Containers issues
+- First thing to do is stop/restart all the containers
+
+    `docker compose stop`
+
+    `docker compose down`
+
+    To stop and remove containers, and also remove images: `docker compose down --rmi <all/local>`
+
+    To start the container follow the steps listed under "Run the container" section above.
+
+- Use this as the last option: 
+
+    Clean the Persistent storage. NOTE: this will remove all the data including the changes to DB. Commit/backup any changes before executing the following script.
+
+    `.\clean.ps1`
 
