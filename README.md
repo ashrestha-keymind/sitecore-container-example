@@ -10,8 +10,10 @@
     > Update the license path as needed.
 
 ### Run the container
-- Execute the docker compose command to start the containers.
-    > docker-compose up -d 
+- Execute the docker compose command to start the containers: `docker-compose up -d`
+    > Ignore this warning: _pull access denied for sitecore-xp0-cm, repository does not exist or may require 'docker login': denied: requested access to the resource is denied_
+    
+    > First build could take 20 minutes or more
 
 
 ## Fews changes made to the default scripts/files
@@ -20,11 +22,7 @@
 ## Accessing the containers
 Access Sitecore containers > [Reference here](https://doc.sitecore.com/xp/en/developers/103/developer-tools/run-your-first-sitecore-instance.html#access-sitecore-containers)
 
-You access the containers serviced by the reverse proxy with the HTTPS protocol, using their configured hostnames (for ex https://xp0cm.localhost).
-
-The rest of the exposed containers are preconfigured to use specific ports (see ports in the docker-compose.yml file). In the default configuration of Docker Desktop for Windows, you access these ports on localhost.
-
-This means you can access your Sitecore Experience Platform - Single (XP0) containers like this:
+Check the `.env` file for the password
 
 - Sitecore Content Management (cm): https://xp0cm.localhost
 - Sitecore Identity Server (id): https://xp0id.localhost
