@@ -413,3 +413,7 @@ traefik/certs/*
 !traefik/certs/*.md
 device-detection-data/*
 !device-detection-data/*.md
+docker/data/cm/*
+docler/deploy/website/*
+!docker/**/.gitkeep
+!**/.gitkeep
