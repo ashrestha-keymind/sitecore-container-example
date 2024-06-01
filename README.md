@@ -29,3 +29,17 @@ This means you can access your Sitecore Experience Platform - Single (XP0) conta
 - Apache Solr (solr): http://localhost:8984
 - Microsoft SQL Server (mssql): localhost,14330
 - Traefik: http://localhost:8079
+
+# Troubleshooting
+## Not able to access SOLR using the URL provided above
+- If using edge/chrome, the browser automatically redirect all the traffic to HTTPS protocal. SOLR URL will not work with this at this time.
+
+    Solution (for chrome/edge)
+
+        - Go to Edge browser and type following statement in address bar.
+            `edge://net-internals/#hsts`
+        - Scroll down to `Delete domain security policies`.
+        - Type 'localhost'.
+        - Select `Delete`.
+
+
