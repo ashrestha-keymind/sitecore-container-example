@@ -19,7 +19,7 @@ services:
       - source: \\.\pipe\docker_engine
         target: \\.\pipe\docker_engine
         type: npipe
-      - ./traefik:C:/etc/traefik
+      - ./docker/traefik:C:/etc/traefik
     depends_on:
       id:
         condition: service_healthy
@@ -35,7 +35,7 @@ services:
       - "14330:1433"
     volumes:
       - type: bind
-        source: .\mssql-data
+        source: .\docker\data\mssql-data
         target: c:\data
   mssql-init:
     isolation: ${ISOLATION}
@@ -62,7 +62,7 @@ services:
       - "8984:8983"
     volumes:
       - type: bind
-        source: .\solr-data
+        source: .\docker\data\solr-data
         target: c:\data
     environment:
       SOLR_MODE: solrcloud
@@ -152,7 +152,7 @@ services:
       - "traefik.http.routers.cm-secure.tls=true"
       - "traefik.http.routers.cm-secure.middlewares=force-STS-Header"
     volumes:
-      - "./device-detection-data:C:/inetpub/wwwroot/App_Data/DeviceDetection"
+      - "./docker/data/device-detection-data:C:/inetpub/wwwroot/App_Data/DeviceDetection"
   xconnect:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-xp0-xconnect:${SITECORE_VERSION}

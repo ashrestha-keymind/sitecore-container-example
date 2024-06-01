@@ -10,7 +10,7 @@ services:
     volumes:
       - "${LOCAL_DEPLOY_PATH}/website:C:/deploy"
       - "${LOCAL_DATA_PATH}/cm:C:/inetpub/wwwroot/App_Data/logs"
-      - "./device-detection-data:C:/inetpub/wwwroot/App_Data/DeviceDetection"
+      - "./docker/data/device-detection-data:C:/inetpub/wwwroot/App_Data/DeviceDetection"
     environment:
       SITECORE_DEVELOPMENT_PATCHES: CustomErrorsOff 
     entrypoint: powershell -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"

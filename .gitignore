@@ -405,15 +405,15 @@ FodyWeavers.xsd
 *.env
 
 # ignore data folders
-solr-data/*
-!solr-data/*.md
-mssql-data/*
-!mssql-data/*.md
-traefik/certs/*
-!traefik/certs/*.md
-device-detection-data/*
-!device-detection-data/*.md
+docker/data/solr-data/*
+docker/data/mssql-data/*
 docker/data/cm/*
+docker/data/device-detection-data/*
+
 docler/deploy/website/*
+docker/traefik/certs/*
+
 !docker/**/.gitkeep
+!docker/**/*.md
 !**/.gitkeep
+!**/.md
