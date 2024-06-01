@@ -56,6 +56,38 @@ Param (
 $ErrorActionPreference = "Stop";
 [boolean]$RootCertificateCreated = $false;
 
+if (-not (Get-InstalledModule -Name PackageManagement -ErrorAction SilentlyContinue)){
+    Install-Module -Name PackageManagement -Repository PSGallery -Force -AllowClobber
+}
+
+if (-not (Get-InstalledModule -Name PowerShellGet -ErrorAction SilentlyContinue)){
+    Install-Module -Name PowerShellGet -Repository PSGallery -Force -AllowClobber
+}
+
+################################################
+# Retrieve and import SitecoreDockerTools module
+################################################
+
+# Check for Sitecore Gallery
+$sitecoreNugetUrl = "https://nuget.sitecore.com/resources/v2/";
+Import-Module PowerShellGet
+$SitecoreGallery = Get-PSRepository | Where-Object { $_.SourceLocation -eq "${sitecoreNugetUrl}" }
+if (-not $SitecoreGallery) {
+    Write-Host "Adding Sitecore PowerShell Gallery..." -ForegroundColor Green
+    Register-PSRepository -Name SitecoreGallery -SourceLocation "${sitecoreNugetUrl}" -InstallationPolicy Trusted
+    $SitecoreGallery = Get-PSRepository -Name SitecoreGallery
+}
+
+# Install and Import SitecoreDockerTools
+$dockerToolsVersion = "10.2.7"
+Remove-Module SitecoreDockerTools -ErrorAction SilentlyContinue
+if (-not (Get-InstalledModule -Name SitecoreDockerTools -RequiredVersion $dockerToolsVersion -ErrorAction SilentlyContinue)) {
+    Write-Host "Installing SitecoreDockerTools..." -ForegroundColor Green
+    Install-Module SitecoreDockerTools -RequiredVersion $dockerToolsVersion -Scope CurrentUser -Repository $SitecoreGallery.Name
+}
+Write-Host "Importing SitecoreDockerTools..." -ForegroundColor Green
+Import-Module SitecoreDockerTools -RequiredVersion $dockerToolsVersion
+
 function Get-EnvironmentVariableNameList {
     param(
         [string]$EnvFilePath
