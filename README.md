@@ -32,6 +32,9 @@ Check the `.env` file for the password
 - Traefik: http://localhost:8079
 
 # Troubleshooting
+## Docker: Port in use issue
+- The container uses the same ports as IIS (80/443). Make sure to stop IIS or any other applications that might be using the port.
+
 ## Not able to access SOLR using the URL provided above
 - If using edge/chrome, the browser automatically redirect all the traffic to HTTPS protocal. SOLR URL will not work with this at this time.
 

@@ -410,7 +410,7 @@ docker/data/mssql-data/*
 docker/data/cm/*
 docker/data/device-detection-data/*
 
-docler/deploy/website/*
+docker/deploy/website/*
 docker/traefik/certs/*
 
 !docker/**/.gitkeep
