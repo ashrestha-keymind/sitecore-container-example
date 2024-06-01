@@ -1,4 +1,0 @@
-Conainter location: https://github.com/Sitecore/container-deployment/releases/tag/10.3.1.009452.1563
-Image list: https://raw.githubusercontent.com/Sitecore/docker-images/master/tags/sitecore-tags.md
-
-.\compose-init.ps1 -LicenseXmlPath "C:\Projects\license.xml" 

@@ -88,6 +88,12 @@ if (-not (Get-InstalledModule -Name SitecoreDockerTools -RequiredVersion $docker
 Write-Host "Importing SitecoreDockerTools..." -ForegroundColor Green
 Import-Module SitecoreDockerTools -RequiredVersion $dockerToolsVersion
 
+# Create .env file from .env.default is not exists
+if(Test-Path ".env"){
+    Write-Host "Creating .env file"
+    Copy-Item ".\.env.defaults" ".\.env"
+}
+
 function Get-EnvironmentVariableNameList {
     param(
         [string]$EnvFilePath

@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # Ignore Key/Certs
 *.key
 *.crt
+
+# ignore .env file
+*.env
