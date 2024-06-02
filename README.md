@@ -1,5 +1,6 @@
 # Sitecore Container Example
 
+- Reference: https://doc.sitecore.com/xp/en/developers/103/developer-tools/containers-in-sitecore-development.html
 - Container location: https://github.com/Sitecore/container-deployment/releases/tag/10.3.1.009452.1563
 - Image list: https://raw.githubusercontent.com/Sitecore/docker-images/master/tags/sitecore-tags.md
 
@@ -30,6 +31,9 @@ Check the `.env` file for the password
 - Apache Solr (solr): http://localhost:8984
 - Microsoft SQL Server (mssql): localhost,14330
 - Traefik: http://localhost:8079
+
+## How to debug?
+- Refer to https://doc.sitecore.com/xp/en/developers/103/developer-tools/debug-code-running-in-containers.html
 
 # Troubleshooting
 ## Docker: Port in use issue
