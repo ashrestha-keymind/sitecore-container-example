@@ -1,6 +1,6 @@
 # Sitecore Container Example
 
-- Conainter location: https://github.com/Sitecore/container-deployment/releases/tag/10.3.1.009452.1563
+- Container location: https://github.com/Sitecore/container-deployment/releases/tag/10.3.1.009452.1563
 - Image list: https://raw.githubusercontent.com/Sitecore/docker-images/master/tags/sitecore-tags.md
 
 ## Getting Started
@@ -46,18 +46,31 @@ Check the `.env` file for the password
         - Type 'localhost'.
         - Select `Delete`.
 
-## Containers issues
-- First thing to do is stop/restart all the containers
+## For Error: a network with name ********* exists but was not created by compose
+- Remove the container and all the existing networks
 
-    `docker compose stop`
+    To remove container: `docker compose down`
 
-    `docker compose down`
-
-    To stop and remove containers, and also remove images: `docker compose down --rmi <all/local>`
+    To remove network: `docker network prune`
 
     To start the container follow the steps listed under "Run the container" section above.
 
-- Use this as the last option: 
+## For common containers issues
+- First thing to do is stop/restart all the containers
+
+    To stop container: `docker compose stop`
+
+    To start the container follow the steps listed under "Run the container" section above.
+
+- If stopping/restarting the container does not work, remove the container and restart.
+
+    To remove containers: `docker compose down`
+
+    To start the container follow the steps listed under "Run the container" section above.
+
+        > To remove containers, and also remove images: `docker compose down --rmi <all/local>`
+
+## Use this as the last option
 
     Clean the Persistent storage. NOTE: this will remove all the data including the changes to DB. Commit/backup any changes before executing the following script.
 
