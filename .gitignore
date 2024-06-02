@@ -417,3 +417,6 @@ docker/traefik/certs/*
 !docker/**/*.md
 !**/.gitkeep
 !**/.md
+
+# Ignore external libraries
+**/wwwroot/lib/*
