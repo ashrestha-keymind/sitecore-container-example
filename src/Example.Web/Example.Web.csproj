@@ -168,6 +168,7 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.PowerShell.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Dilithium.config.example" />
+    <Content Include="App_Config\Include\Sitecore.sites.patch.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.DataProvider.10.1.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.config" />

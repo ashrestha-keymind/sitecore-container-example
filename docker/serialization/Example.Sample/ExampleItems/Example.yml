@@ -1,7 +1,7 @@
 ﻿---
-ID: "ff50e2af-2533-4186-96df-266ab7b33c21"
+ID: "dc094dab-6ab2-44cc-994a-88e1133fd3c6"
 Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
-Template: "ae54fdbd-806f-4e46-8c6e-7d500f7c0037"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/content/Example
 DB: master
 Languages:
@@ -11,7 +11,8 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240602T044209Z
-    - ID: "40b56bf6-84c5-4a63-ab5a-577f919eee0c"
-      Hint: Title
-      Value: Example Item
+      Value: 20240602T182041Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

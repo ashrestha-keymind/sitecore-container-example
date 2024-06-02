@@ -1,0 +1,17 @@
+﻿---
+ID: "390785c2-4f3d-4c77-9ee2-aa130aecd639"
+Parent: "dc094dab-6ab2-44cc-994a-88e1133fd3c6"
+Template: "ae54fdbd-806f-4e46-8c6e-7d500f7c0037"
+Path: /sitecore/content/Example/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240602T182059Z
+    - ID: "40b56bf6-84c5-4a63-ab5a-577f919eee0c"
+      Hint: Title
+      Value: Home Page
