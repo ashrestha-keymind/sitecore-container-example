@@ -11,7 +11,7 @@
             foreach (var type in types)
             {
                 var controllers = type.Assembly.GetExportedTypes()
-                    .Where(t => (typeof(BaseController).IsAssignableFrom(t))
+                    .Where(t => typeof(BaseController).IsAssignableFrom(t)
                                    && !t.IsAbstract
                                    && !t.IsGenericTypeDefinition)
                     .ToArray();

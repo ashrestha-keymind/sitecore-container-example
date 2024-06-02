@@ -106,6 +106,7 @@ csharp_style_prefer_top_level_statements = true:silent
 csharp_style_prefer_primary_constructors = true:suggestion
 csharp_style_expression_bodied_lambdas = true:silent
 csharp_style_expression_bodied_local_functions = false:silent
+dotnet_diagnostic.SA0001.severity = none
 dotnet_diagnostic.SA1101.severity = none
 dotnet_diagnostic.SA1028.severity = none
 dotnet_diagnostic.SA1126.severity = none
