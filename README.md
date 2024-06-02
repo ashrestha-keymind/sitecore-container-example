@@ -30,6 +30,9 @@
 
 ### Publish Site from CMS
 
+## On Docker deamon/machine restart
+- Containers has option `restart: unless-stopped` set on the compose file. Unless the containers were stopped, it will auto start when the docker daemon/machine reboots. The `traefik` container may take a little while to warm up. If you experience `404 message` when browsing the site, please wait for the `trafik` container to start and register other containers.
+
 ## Fews changes made to the default scripts/files
 - Added `.env.default` file. This file contains the (basic)default values that will be copied to the `.env` file on first initialization. When the script first initializes it updated the `.env` file with password/keys/cert values which should not be committed. The `.env` file has been added to `.gitignore` to avoid accidental commits.
 
