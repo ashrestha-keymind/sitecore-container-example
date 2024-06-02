@@ -16,6 +16,19 @@
     
     > First build could take 20 minutes or more
 
+### Populate SOLR schema
+- CMS > Control Panel > `Populate SOLR Managed Schema`.
+
+### Built SOLR index
+- CMS > Control Panel > `Indexing Manager`. Built all indexes.
+
+### Publish Solution
+- Visual Studio Web publish
+
+### SYNC unicorn serialization
+- [CMS URL]/Unicorn.aspx
+
+### Publish Site from CMS
 
 ## Fews changes made to the default scripts/files
 - Added `.env.default` file. This file contains the (basic)default values that will be copied to the `.env` file on first initialization. When the script first initializes it updated the `.env` file with password/keys/cert values which should not be committed. The `.env` file has been added to `.gitignore` to avoid accidental commits.

@@ -1,4 +1,14 @@
 services:
+  solution:
+    build:
+      context: .
+      args:
+        BASE_IMAGE: ${SOLUTION_BASE_IMAGE}
+        BUILD_IMAGE: ${SOLUTION_BUILD_IMAGE}
+        BUILD_CONFIGURATION: ${BUILD_CONFIGURATION}
+    image: ${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
+    scale: 0
+
   cm:
     build:
       context: ./docker/build/cm
@@ -6,7 +16,10 @@ services:
         BASE_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xp0-cm:${SITECORE_VERSION}
         SPE_IMAGE: ${SITECORE_MODULE_REGISTRY}sitecore-spe-assets:${SPE_VERSION}
         TOOLING_IMAGE: ${SITECORE_TOOLS_REGISTRY}sitecore-docker-tools-assets:${TOOLS_VERSION}
+        SOLUTION_IMAGE: ${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
     image: ${COMPOSE_PROJECT_NAME}-cm:${VERSION:-latest}
+    depends_on:
+      - solution
     volumes:
       - "${LOCAL_DEPLOY_PATH}/website:C:/deploy"
       - "${LOCAL_DATA_PATH}/cm:C:/inetpub/wwwroot/App_Data/logs"
