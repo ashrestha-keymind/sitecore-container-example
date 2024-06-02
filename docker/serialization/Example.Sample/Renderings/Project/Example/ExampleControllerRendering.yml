@@ -1,0 +1,28 @@
+﻿---
+ID: "a6cbb55c-6431-4524-8f32-b86b46ebf4f2"
+Parent: "ef9693f9-0204-435c-9f0a-ecac6d4da4ea"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/Example/ExampleControllerRendering
+DB: master
+SharedFields:
+- ID: "1c0af338-70a8-455f-8366-173135e03be6"
+  Hint: Placeholder
+  Value: main
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: ExampleControllerRendering
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Example.Web.Controllers.ExampleController, Example.Web
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240602T030811Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
