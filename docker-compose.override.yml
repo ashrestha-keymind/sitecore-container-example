@@ -9,6 +9,11 @@ services:
     image: ${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
     scale: 0
 
+  traefik: 
+    depends_on: 
+      cm: 
+        condition: service_started
+
   cm:
     build:
       context: ./docker/build/cm
@@ -20,11 +25,13 @@ services:
     image: ${COMPOSE_PROJECT_NAME}-cm:${VERSION:-latest}
     depends_on:
       - solution
+    healthcheck: 
+      test: ["CMD", "powershell", "-command", "exit 0"]
     volumes:
       - "${LOCAL_DEPLOY_PATH}/website:C:/deploy"
       - "${LOCAL_DATA_PATH}/cm:C:/inetpub/wwwroot/App_Data/logs"
       - "./docker/data/device-detection-data:C:/inetpub/wwwroot/App_Data/DeviceDetection"
       - "${LOCAL_ITEM_PATH}:C:/inetpub/wwwroot/App_Data/Unicorn"
     environment:
-      SITECORE_DEVELOPMENT_PATCHES: CustomErrorsOff 
+      SITECORE_DEVELOPMENT_PATCHES: CustomErrorsOff,DebugOn,RobotDetectionOff
     entrypoint: powershell -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"
