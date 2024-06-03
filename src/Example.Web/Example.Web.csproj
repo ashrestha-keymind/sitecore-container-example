@@ -242,6 +242,8 @@
     <Compile Include="Infrastructure\Dependencies\ServiceCollectionExtension.cs" />
     <Compile Include="Infrastructure\Dependencies\ServiceConfigurator.cs" />
     <Compile Include="Infrastructure\Pipelines\InitializeCustomRazorViewEngine.cs" />
+    <Compile Include="Infrastructure\Services\Interfaces\IMediaService.cs" />
+    <Compile Include="Infrastructure\Services\MediaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
