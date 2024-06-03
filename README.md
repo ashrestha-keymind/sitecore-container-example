@@ -52,6 +52,9 @@ Check the `.env` file for the password
 - Refer to https://doc.sitecore.com/xp/en/developers/103/developer-tools/debug-code-running-in-containers.html
 
 # Troubleshooting
+## Docker Destop shows an error "An unexpected error occurred" and won't start
+- Restart the machine.
+
 ## Docker: Port in use issue
 - The container uses the same ports as IIS (80/443). Make sure to stop IIS or any other applications that might be using the port.
 
@@ -91,8 +94,7 @@ Check the `.env` file for the password
         > To remove containers, and also remove images: `docker compose down --rmi <all/local>`
 
 ## Use this as the last option
-
-    Clean the Persistent storage. NOTE: this will remove all the data including the changes to DB. Commit/backup any changes before executing the following script.
+- Clean the Persistent storage. NOTE: this will remove all the data including the changes to DB. Commit/backup any changes before executing the following script.
 
     `.\clean.ps1`
 
