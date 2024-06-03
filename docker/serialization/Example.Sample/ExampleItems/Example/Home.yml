@@ -9,9 +9,37 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0452ff40-4b8f-4907-8904-43b7cabbe52f"
+      Hint: Title
+      Value: Container Example
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{440B26E1-11C6-48E9-BBA3-7D2FB270334B}"
+              p:after="p[@uid='{6B0C12C8-F52F-4A8C-9783-516C569B1A41}']"
+              s:ds="{55552752-9B9B-4AA5-A923-F1212B642365}"
+              s:id="{ABAB4AFB-E5F0-4433-B9AA-35EC9C1C5440}"
+              s:ph="/main/cards" />
+            <r
+              uid="{3B78CD61-2D05-40CA-B4DE-5880C64C40EE}"
+              p:after="r[@uid='{440B26E1-11C6-48E9-BBA3-7D2FB270334B}']"
+              s:ds="{65FB7A9F-1C04-40F8-B9C3-7D2F09B0458E}"
+              s:id="{55B2CF52-4DE1-4AD4-A852-67C04B8BA1C2}"
+              s:ph="main" />
+            <r
+              uid="{087B85D3-016F-474E-89E7-09A57AF5D4B7}"
+              p:after="r[@uid='{3B78CD61-2D05-40CA-B4DE-5880C64C40EE}']"
+              s:ds="{89C3DCE8-F26D-451A-8B20-A23A27F39B03}"
+              s:id="{949D2FA7-A4D9-4E95-9C15-7265F4315082}"
+              s:ph="main" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240602T182059Z
-    - ID: "40b56bf6-84c5-4a63-ab5a-577f919eee0c"
-      Hint: Title
-      Value: Home Page

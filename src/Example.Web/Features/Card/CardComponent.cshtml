@@ -1,0 +1,10 @@
+@model Example.Web.Features.Card.CardViewModel
+
+<div class="col">
+    <div class="card shadow-sm">
+        <img class="card-img-top" src="@Model.Image.Url" alt="@Model.Image.AltText" />
+        <div class="card-body">
+            <p class="card-text">@Model.Description</p>
+        </div>
+    </div>
+</div>

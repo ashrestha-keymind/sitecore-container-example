@@ -1,22 +1,17 @@
 ﻿---
-ID: "6d38da6a-8059-4404-8a09-264c9edc8d3e"
+ID: "22f2daa7-67b4-41f5-b237-df8b67f0c227"
 Parent: "cbb00edd-eddb-4e1b-98bc-c7060b6a2416"
 Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: /sitecore/layout/Placeholder Settings/Project/Example/Main
+Path: /sitecore/layout/Placeholder Settings/Project/Example/Cards
 DB: master
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
   Hint: Placeholder Key
-  Value: main
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 50
+  Value: cards
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Type: TreelistEx
-  Value: |
-    {55B2CF52-4DE1-4AD4-A852-67C04B8BA1C2}
-    {949D2FA7-A4D9-4E95-9C15-7265F4315082}
+  Value: "{ABAB4AFB-E5F0-4433-B9AA-35EC9C1C5440}"
 Languages:
 - Language: en
   Versions:
@@ -24,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240602T003540Z
+      Value: 20240603T202712Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

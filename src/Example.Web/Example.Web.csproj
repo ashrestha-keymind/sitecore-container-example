@@ -204,7 +204,11 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
-    <Content Include="Features\ExampleComponent\Component.cshtml" />
+    <Content Include="Features\Header\HeaderComponent.cshtml" />
+    <Content Include="Features\Footer\FooterComponent.cshtml" />
+    <Content Include="Features\Jumbotron\JumbotronComponent.cshtml" />
+    <Content Include="Features\Card\CardComponent.cshtml" />
+    <Content Include="Features\CardCollection\CardCollectionComponent.cshtml" />
     <None Include="libman.json" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
@@ -219,9 +223,20 @@
     <Content Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\ExampleComponent\ExampleComponentController.cs" />
-    <Compile Include="Features\ExampleComponent\ExampleComponentQueryHandler.cs" />
-    <Compile Include="Features\ExampleComponent\ExampleComponentViewModel.cs" />
+    <Compile Include="Features\CardCollection\CardCollectionController.cs" />
+    <Compile Include="Features\CardCollection\CardCollectionQueryHandler.cs" />
+    <Compile Include="Features\CardCollection\CardCollectionViewModel.cs" />
+    <Compile Include="Features\CardCollection\CardViewModel.cs" />
+    <Compile Include="Features\Card\CardController.cs" />
+    <Compile Include="Features\Card\CardQueryHandler.cs" />
+    <Compile Include="Features\Card\CardViewModel.cs" />
+    <Compile Include="Features\Header\HeaderController.cs" />
+    <Compile Include="Features\Header\HeaderQueryHandler.cs" />
+    <Compile Include="Features\Header\HeaderViewModel.cs" />
+    <Compile Include="Features\Jumbotron\JumbotronController.cs" />
+    <Compile Include="Features\Jumbotron\JumbotronQueryHandler.cs" />
+    <Compile Include="Features\Jumbotron\JumbotronViewModel.cs" />
+    <Compile Include="Features\Shared\Model\ImageViewModel.cs" />
     <Compile Include="Infrastructure\BaseController.cs" />
     <Compile Include="Infrastructure\CustomRazorViewEngine.cs" />
     <Compile Include="Infrastructure\Dependencies\ServiceCollectionExtension.cs" />
@@ -241,7 +256,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Features\Shared\Model\" />
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />

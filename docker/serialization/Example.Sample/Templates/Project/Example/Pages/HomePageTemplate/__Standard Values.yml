@@ -2,7 +2,7 @@
 ID: "3ddd8b56-8117-43ae-8696-5ef07571e2d8"
 Parent: "ae54fdbd-806f-4e46-8c6e-7d500f7c0037"
 Template: "ae54fdbd-806f-4e46-8c6e-7d500f7c0037"
-Path: /sitecore/templates/Project/Example/HomePageTemplate/__Standard Values
+Path: /sitecore/templates/Project/Example/Pages/HomePageTemplate/__Standard Values
 DB: master
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
@@ -17,10 +17,28 @@ SharedFields:
           uid="{FA12AAA3-8897-4E89-834A-C49146D5AE36}"
           key="main"
           md="{6D38DA6A-8059-4404-8A09-264C9EDC8D3E}" />
+        <p
+          uid="{FF1772D4-720B-4529-9545-E117E8E6B54C}"
+          key="header"
+          md="{CF7947A7-DBC4-4800-BAB4-A2F19D6A6D28}" />
+        <p
+          uid="{6B0C12C8-F52F-4A8C-9783-516C569B1A41}"
+          key="footer"
+          md="{4DDED3DB-7CC2-460B-9BC8-B8386D900886}" />
         <r
-          id="{A6CBB55C-6431-4524-8F32-B86B46EBF4F2}"
-          ph="main"
-          uid="{8AABC3EC-865A-4006-8AB2-1374E3BD65A2}" />
+          ds=""
+          id="{D4571524-49A1-40EC-89E0-BDC168B13324}"
+          par=""
+          ph="header"
+          uid="{7E24B120-6AEA-4A5A-A94C-8DA9E538AA0B}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{ADB90EE0-6057-4406-AFF5-5CC972B865DD}"
+          par=""
+          ph="footer"
+          uid="{589DEF61-5540-4B54-9EC9-0CFFA860A1DF}"
+          ccb="Clear on publish" />
       </d>
     </r>
 Languages:

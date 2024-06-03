@@ -1,0 +1,18 @@
+﻿---
+ID: "89c3dce8-f26d-451a-8b20-a23a27f39b03"
+Parent: "84040039-9244-4e56-aee4-1adb61e2aa76"
+Template: "af21ddb6-5778-414e-b7b0-587e00c27ce6"
+Path: /sitecore/content/Example/Home/Components/Cards
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240603T185102Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

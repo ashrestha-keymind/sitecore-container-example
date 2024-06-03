@@ -1,0 +1,18 @@
+﻿---
+ID: "69ba5c56-d233-4dbe-83a9-3255a65b4100"
+Parent: "db236d10-ef38-454e-8e34-f93a650013e4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Example/Base/BaseTitle/Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240603T183806Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

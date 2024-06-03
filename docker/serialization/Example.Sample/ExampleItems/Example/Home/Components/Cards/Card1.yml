@@ -1,0 +1,28 @@
+﻿---
+ID: "55552752-9b9b-4aa5-a923-f1212b642365"
+Parent: "89c3dce8-f26d-451a-8b20-a23a27f39b03"
+Template: "3c3b7afc-d7ae-487d-a7b6-5ae4e20662f0"
+Path: /sitecore/content/Example/Home/Components/Cards/Card1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0452ff40-4b8f-4907-8904-43b7cabbe52f"
+      Hint: Title
+      Value: "What is Lorem Ipsum?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240603T185115Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "db2f922e-c506-4bf2-8bc1-a6dd7446f528"
+      Hint: Description
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    - ID: "e8b8ef2b-2bc5-4448-beb7-0bfeae062aaf"
+      Hint: Image
+      Value: |
+        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" alt="Test Image" height="" width="" hspace="" vspace="" />

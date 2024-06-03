@@ -1,0 +1,28 @@
+﻿---
+ID: "65fb7a9f-1c04-40f8-b9c3-7d2f09b0458e"
+Parent: "84040039-9244-4e56-aee4-1adb61e2aa76"
+Template: "434101a9-4ebb-4430-ae61-f489611f3a21"
+Path: /sitecore/content/Example/Home/Components/MainJumbotron
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0452ff40-4b8f-4907-8904-43b7cabbe52f"
+      Hint: Title
+      Value: "What is Lorem Ipsum?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240603T185052Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "db2f922e-c506-4bf2-8bc1-a6dd7446f528"
+      Hint: Description
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

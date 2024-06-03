@@ -1,0 +1,16 @@
+@model Example.Web.Features.CardCollection.CardCollectionViewModel
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    @foreach (var card in Model.Cards)
+    {
+        <div class="col">
+            <div class="card shadow-sm">
+                <img class="card-img-top" src="@card.Image.Url" alt="@card.Image.AltText" />
+                <div class="card-body">
+                    <p class="card-text">@card.Description</p>
+                </div>
+            </div>
+        </div>
+    }
+    @Html.Sitecore().Placeholder("cards")
+</div>
