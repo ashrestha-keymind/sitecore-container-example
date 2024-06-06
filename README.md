@@ -6,6 +6,9 @@
 
 ## Getting Started
 
+### Docker: Switch to windows container
+- Update docker to run windows container.
+
 ### Initial setup
 - .\compose-init.ps1 -LicenseXmlPath "C:\Projects\license.xml"
     > Update the license path as needed.

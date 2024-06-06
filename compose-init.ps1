@@ -47,7 +47,7 @@ Param (
     $SitecoreGalleryRepositoryLocation = "https://sitecore.myget.org/F/sc-powershell/api/v2",
     
     [string]
-    $CertDataFolder = ".\traefik\certs",
+    $CertDataFolder = ".\docker\traefik\certs",
     
     [string]
     $SpecificVersion
@@ -85,6 +85,7 @@ if (-not (Get-InstalledModule -Name SitecoreDockerTools -RequiredVersion $docker
     Write-Host "Installing SitecoreDockerTools..." -ForegroundColor Green
     Install-Module SitecoreDockerTools -RequiredVersion $dockerToolsVersion -Scope CurrentUser -Repository $SitecoreGallery.Name
 }
+
 Write-Host "Importing SitecoreDockerTools..." -ForegroundColor Green
 Import-Module SitecoreDockerTools -RequiredVersion $dockerToolsVersion
 
