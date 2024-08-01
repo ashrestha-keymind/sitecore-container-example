@@ -1,0 +1,17 @@
+@model Example.Web.Features.Banner.OneColumn.OneColumnViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>@Model.Title</h2>
+            <small>@Model.Description</small>
+            <div class="d-flex flex-row my-3">
+                @foreach (var i in Model.Links)
+                {
+                    <a href="@(i.Href)" class="btn btn-primary">@i.Label</a>
+                    <div class="p-2">Flex item 1</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

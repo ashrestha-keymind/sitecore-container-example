@@ -210,6 +210,8 @@
     <Content Include="Features\Jumbotron\JumbotronComponent.cshtml" />
     <Content Include="Features\Card\CardComponent.cshtml" />
     <Content Include="Features\CardCollection\CardCollectionComponent.cshtml" />
+    <Content Include="Features\Banner\OneColumnComponent.cshtml" />
+    <Content Include="Features\Banner\TwoColumnComponent.cshtml" />
     <None Include="libman.json" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
@@ -224,6 +226,13 @@
     <Content Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js.map" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\Banner\BannerController.cs" />
+    <Compile Include="Features\Banner\BaseBannerViewModel.cs" />
+    <Compile Include="Features\Shared\Model\LinkViewModel.cs" />
+    <Compile Include="Features\Banner\OneColumn\OneColumnQueryHandler.cs" />
+    <Compile Include="Features\Banner\OneColumn\OneColumnViewModel.cs" />
+    <Compile Include="Features\Banner\TwoColumn\TwoColumnQueryHandler.cs" />
+    <Compile Include="Features\Banner\TwoColumn\TwoColumnViewModel.cs" />
     <Compile Include="Features\CardCollection\CardCollectionController.cs" />
     <Compile Include="Features\CardCollection\CardCollectionQueryHandler.cs" />
     <Compile Include="Features\CardCollection\CardCollectionViewModel.cs" />

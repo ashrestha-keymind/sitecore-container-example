@@ -1,0 +1,24 @@
+﻿---
+ID: "ea1eb209-78a0-4fd9-a166-74fc90442776"
+Parent: "5afbbddc-a046-4ec2-8837-5ee605b7e335"
+Template: "109edfb3-14be-48dd-ad92-0c7a75520503"
+Path: /sitecore/content/Example/Home/Banner1/LinkCollection/Link2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240801T215415Z
+    - ID: "2fa972e1-8341-4662-96d1-e50c279fcf6e"
+      Hint: Href
+      Value: "https://www.keymind.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "dab8e655-d7cd-4d5d-85e9-d2da2384263d"
+      Hint: Label
+      Value: Second Button
