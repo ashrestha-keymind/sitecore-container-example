@@ -1,0 +1,24 @@
+﻿---
+ID: "7a933d05-96ab-4606-b395-5d94d3e5cc34"
+Parent: "c65bcd2f-4179-45b2-9e90-f0b8fa906e08"
+Template: "f38f9597-7481-44d0-a4c2-81bb78e16e62"
+Path: /sitecore/content/Lookups/BannerStyles/Style1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240802T024704Z
+    - ID: "4307379d-e50c-4f2f-afee-8c7694b95f0b"
+      Hint: Name
+      Value: Style1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6c38e28e-351d-4a1f-b0f0-c9a78b70b321"
+      Hint: Value
+      Value: "order-0"
