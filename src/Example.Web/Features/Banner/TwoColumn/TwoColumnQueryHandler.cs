@@ -25,7 +25,7 @@
         {
             var renderingItem = RenderingContext.Current.Rendering.Item;
             var styleParameter = RenderingContext.Current.Rendering.Parameters["Style"];
-            var styleItem = Sitecore.Context.Database.GetItem(styleParameter);
+            var styleItem = styleParameter != null ? Sitecore.Context.Database.GetItem(styleParameter) : null;
 
             var model = new TwoColumnViewModel
             {
