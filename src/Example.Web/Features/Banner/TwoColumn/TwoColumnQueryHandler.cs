@@ -24,12 +24,15 @@
         public Task<TwoColumnViewModel> Handle(TwoColumnQuery request, CancellationToken cancellationToken)
         {
             var renderingItem = RenderingContext.Current.Rendering.Item;
+            var styleParameter = RenderingContext.Current.Rendering.Parameters["Style"];
+            var styleItem = Sitecore.Context.Database.GetItem(styleParameter);
 
             var model = new TwoColumnViewModel
             {
                 Title = renderingItem["Title"],
                 Description = renderingItem["Description"],
                 Image = _mediaService.GetImage(renderingItem.Fields["Image"]),
+                Style = styleItem != null ? styleItem["Value"] : "order-0",
                 Links = renderingItem.GetChildren()
                 .FirstOrDefault(x => x.TemplateName == "LinkFolder")
                 .GetChildren().Where(x => x.TemplateName == "Link")

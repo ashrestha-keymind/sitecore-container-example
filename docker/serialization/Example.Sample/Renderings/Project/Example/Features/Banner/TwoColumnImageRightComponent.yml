@@ -1,13 +1,10 @@
 ﻿---
-ID: "1f7c76e5-88c1-4fc4-b7ab-c7a2a6b78402"
+ID: "4b88f273-56d6-4d2e-8ea6-c9a538c0f0e2"
 Parent: "02eeaab2-35c4-406d-b117-df44b835d5e0"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Project/Example/Features/Banner/TwoColumnComponent
+Path: /sitecore/layout/Renderings/Project/Example/Features/Banner/TwoColumnImageRightComponent
 DB: master
 SharedFields:
-- ID: "13f89250-ad6b-4548-882e-118a12c18094"
-  Hint: Parameters Template
-  Value: "{FFC22AB5-2975-4D10-8AE0-09E774E69EB4}"
 - ID: "b4bbc0be-7619-4678-b2f7-947d84aa77a9"
   Hint: Content Dependencies
   Type: Checklist
@@ -20,6 +17,9 @@ SharedFields:
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: TwoColumnComponent
+- ID: "e144d9d4-b135-42d4-a5a0-53c09704671c"
+  Hint: Parameters
+  Value: "Style={A5F32D12-C42A-4164-B541-326F04DE15A5}"
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: Example.Web.Features.Banner.BannerController, Example.Web
@@ -30,7 +30,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240801T200835Z
+      Value: 20240802T033209Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

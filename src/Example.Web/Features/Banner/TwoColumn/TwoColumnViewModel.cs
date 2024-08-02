@@ -6,5 +6,7 @@
     public class TwoColumnViewModel : OneColumnViewModel
     {
         public ImageViewModel Image { get; set; }
+
+        public string Style { get; set; }
     }
 }
