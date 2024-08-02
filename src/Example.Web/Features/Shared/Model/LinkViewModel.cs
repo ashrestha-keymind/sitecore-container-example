@@ -19,7 +19,7 @@
 
                 if (Link.IsInternal)
                 {
-                    return Link.InternalPath;
+                    return Link.GetFriendlyUrl();
                 }
 
                 return Link.Url;
