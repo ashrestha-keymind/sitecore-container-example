@@ -5,6 +5,7 @@
     using System.Threading.Tasks;
     using Example.Web.Features.Shared.Model;
     using MediatR;
+    using Sitecore.Data.Fields;
     using Sitecore.Mvc.Presentation;
 
     public class OneColumnQuery : IRequest<OneColumnViewModel>
@@ -26,7 +27,7 @@
                 .Select(x => new LinkViewModel
                 {
                     Label = x["Label"],
-                    Href = x["Href"]
+                    Link = (LinkField)x.Fields["Href"]
                 })
             };
 

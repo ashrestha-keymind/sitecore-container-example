@@ -11,7 +11,7 @@
             <div class="d-flex flex-row my-3">
                 @foreach (var i in Model.Links)
                 {
-                    <a href="@(i.Href)" class="btn btn-primary me-2">@i.Label</a>
+                    <a href="@(i.Href)" class="btn btn-primary me-2" target="@(i.Target)">@i.Label</a>
                 }
             </div>
         </div>

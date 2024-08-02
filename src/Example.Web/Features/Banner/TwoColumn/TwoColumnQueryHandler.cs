@@ -6,6 +6,7 @@
     using Example.Web.Features.Shared.Model;
     using Example.Web.Infrastructure.Services.Interfaces;
     using MediatR;
+    using Sitecore.Data.Fields;
     using Sitecore.Mvc.Presentation;
 
     public class TwoColumnQuery : IRequest<TwoColumnViewModel>
@@ -39,7 +40,7 @@
                 .Select(x => new LinkViewModel
                 {
                     Label = x["Label"],
-                    Href = x["Href"]
+                    Link = (LinkField)x.Fields["Href"]
                 })
             };
 

@@ -1,0 +1,33 @@
+﻿---
+ID: "0062266f-e1d9-4f9e-b8f6-e221dd56f7ba"
+Parent: "390785c2-4f3d-4c77-9ee2-aa130aecd639"
+Template: "51776e29-a0d0-443a-8f8a-f1d0a9d531bf"
+Path: /sitecore/content/Example/Home/Banner3
+DB: master
+BranchID: "8aa7e184-1b6e-4c32-a3ab-f52aec1311d1"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{34644CDC-1CA4-4550-B90A-46153E828143}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0452ff40-4b8f-4907-8904-43b7cabbe52f"
+      Hint: Title
+      Value: "Why do we use it?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240802T043316Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "db2f922e-c506-4bf2-8bc1-a6dd7446f528"
+      Hint: Description
+      Value: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    - ID: "fd52b6d2-acef-463d-b32c-79895a969ab2"
+      Hint: Image
+      Value: |
+        <image mediaid="{04142A89-A3AA-4A93-A288-CEA75ABE7575}" />

@@ -14,7 +14,8 @@ Languages:
       Value: 20240801T210336Z
     - ID: "2fa972e1-8341-4662-96d1-e50c279fcf6e"
       Hint: Href
-      Value: "https://www.google.com"
+      Value: |
+        <link text="Test" linktype="external" url="https://www.google.com" anchor="" target="" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
