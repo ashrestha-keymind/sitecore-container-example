@@ -21,32 +21,41 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{440B26E1-11C6-48E9-BBA3-7D2FB270334B}"
-              p:after="p[@uid='{6B0C12C8-F52F-4A8C-9783-516C569B1A41}']"
-              s:ds="{55552752-9B9B-4AA5-A923-F1212B642365}"
-              s:id="{ABAB4AFB-E5F0-4433-B9AA-35EC9C1C5440}"
-              s:ph="/main/cards" />
-            <r
               uid="{3B78CD61-2D05-40CA-B4DE-5880C64C40EE}"
-              p:after="r[@uid='{440B26E1-11C6-48E9-BBA3-7D2FB270334B}']"
+              p:after="p[@uid='{6B0C12C8-F52F-4A8C-9783-516C569B1A41}']"
               s:ds="{65FB7A9F-1C04-40F8-B9C3-7D2F09B0458E}"
               s:id="{55B2CF52-4DE1-4AD4-A852-67C04B8BA1C2}"
               s:ph="main" />
             <r
-              uid="{7D2A96C3-79D2-484B-BC2C-F5565A7EFE58}"
+              uid="{E9039E37-38B6-4EA6-AEFA-E07993A3219C}"
               p:after="r[@uid='{3B78CD61-2D05-40CA-B4DE-5880C64C40EE}']"
+              s:ds="{9B5F3DD4-6A90-43B6-9589-98F1A786F2C2}"
+              s:id="{1F7C76E5-88C1-4FC4-B7AB-C7A2A6B78402}"
+              s:par="Style=%7BA5F32D12-C42A-4164-B541-326F04DE15A5%7D"
+              s:ph="main" />
+            <r
+              uid="{38D4117E-BD11-4270-8E23-61EAE3BF1FF9}"
+              p:after="r[@uid='{E9039E37-38B6-4EA6-AEFA-E07993A3219C}']"
+              s:ds="{B35A57A0-F303-40A4-96C2-4448305E8983}"
+              s:id="{1F7C76E5-88C1-4FC4-B7AB-C7A2A6B78402}"
+              s:par="Style=%7B7A933D05-96AB-4606-B395-5D94D3E5CC34%7D"
+              s:ph="main" />
+            <r
+              uid="{7D2A96C3-79D2-484B-BC2C-F5565A7EFE58}"
+              p:after="r[@uid='{38D4117E-BD11-4270-8E23-61EAE3BF1FF9}']"
               s:ds="{B35A57A0-F303-40A4-96C2-4448305E8983}"
               s:id="{5731FE51-F161-4593-8E6C-DD702242D7D6}"
               s:ph="main" />
             <r
-              uid="{38D4117E-BD11-4270-8E23-61EAE3BF1FF9}"
+              uid="{927EC6BE-7318-4BD5-B71C-B04C5A111992}"
               p:after="r[@uid='{7D2A96C3-79D2-484B-BC2C-F5565A7EFE58}']"
               s:ds="{B35A57A0-F303-40A4-96C2-4448305E8983}"
               s:id="{1F7C76E5-88C1-4FC4-B7AB-C7A2A6B78402}"
+              s:par="Style=%7BA5F32D12-C42A-4164-B541-326F04DE15A5%7D"
               s:ph="main" />
             <r
               uid="{087B85D3-016F-474E-89E7-09A57AF5D4B7}"
-              p:after="r[@uid='{38D4117E-BD11-4270-8E23-61EAE3BF1FF9}']"
+              p:after="r[@uid='{927EC6BE-7318-4BD5-B71C-B04C5A111992}']"
               s:ds="{89C3DCE8-F26D-451A-8B20-A23A27F39B03}"
               s:id="{949D2FA7-A4D9-4E95-9C15-7265F4315082}"
               s:ph="main" />
