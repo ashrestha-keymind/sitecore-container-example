@@ -1,0 +1,22 @@
+﻿---
+ID: "cb9a10a7-4f56-45f1-8e80-298738001920"
+Parent: "d188a27c-52b0-40f0-8d15-482a2ea565c4"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/Example/Features/CustomLayout/CustomLayout1
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Features/CustomLayout/CustomLayout1.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240803T160139Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

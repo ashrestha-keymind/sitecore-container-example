@@ -214,6 +214,10 @@
     <Content Include="Features\Banner\OneColumnComponent.cshtml" />
     <Content Include="Features\Banner\TwoColumnComponent.cshtml" />
     <Content Include="Features\Button\ButtonComponent.cshtml" />
+    <Content Include="Features\CustomLayout\CustomeLayout1.cshtml" />
+    <Content Include="Features\CustomLayout\CustomeLayout2.cshtml" />
+    <Content Include="Features\Image\ImageComponent.cshtml" />
+    <Content Include="Features\TitleSummary\TitleSummaryComponent.cshtml" />
     <None Include="libman.json" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
@@ -233,6 +237,8 @@
     <Compile Include="Features\Button\ButtonController.cs" />
     <Compile Include="Features\Button\ButtonQueryHandler.cs" />
     <Compile Include="Features\Button\ButtonViewModel.cs" />
+    <Compile Include="Features\Image\ImageController.cs" />
+    <Compile Include="Features\Image\ImageQueryHandler.cs" />
     <Compile Include="Features\Shared\Model\LinkViewModel.cs" />
     <Compile Include="Features\Banner\OneColumn\OneColumnQueryHandler.cs" />
     <Compile Include="Features\Banner\OneColumn\OneColumnViewModel.cs" />
@@ -252,6 +258,9 @@
     <Compile Include="Features\Jumbotron\JumbotronQueryHandler.cs" />
     <Compile Include="Features\Jumbotron\JumbotronViewModel.cs" />
     <Compile Include="Features\Shared\Model\ImageViewModel.cs" />
+    <Compile Include="Features\TitleSummary\TitleSummaryController.cs" />
+    <Compile Include="Features\TitleSummary\TitleSummaryQueryHandler.cs" />
+    <Compile Include="Features\TitleSummary\TitleSummaryViewModel.cs" />
     <Compile Include="Infrastructure\BaseController.cs" />
     <Compile Include="Infrastructure\CustomRazorViewEngine.cs" />
     <Compile Include="Infrastructure\Dependencies\ServiceCollectionExtension.cs" />
