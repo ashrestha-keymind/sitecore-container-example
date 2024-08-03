@@ -214,10 +214,10 @@
     <Content Include="Features\Banner\OneColumnComponent.cshtml" />
     <Content Include="Features\Banner\TwoColumnComponent.cshtml" />
     <Content Include="Features\Button\ButtonComponent.cshtml" />
-    <Content Include="Features\CustomLayout\CustomeLayout1.cshtml" />
-    <Content Include="Features\CustomLayout\CustomeLayout2.cshtml" />
     <Content Include="Features\Image\ImageComponent.cshtml" />
     <Content Include="Features\TitleSummary\TitleSummaryComponent.cshtml" />
+    <Content Include="Features\CustomLayout\CustomLayout1.cshtml" />
+    <Content Include="Features\CustomLayout\CustomLayout2.cshtml" />
     <None Include="libman.json" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
