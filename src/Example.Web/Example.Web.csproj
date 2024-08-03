@@ -213,6 +213,7 @@
     <Content Include="Features\CardCollection\CardCollectionComponent.cshtml" />
     <Content Include="Features\Banner\OneColumnComponent.cshtml" />
     <Content Include="Features\Banner\TwoColumnComponent.cshtml" />
+    <Content Include="Features\Button\ButtonComponent.cshtml" />
     <None Include="libman.json" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
     <Content Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
@@ -229,6 +230,9 @@
   <ItemGroup>
     <Compile Include="Features\Banner\BannerController.cs" />
     <Compile Include="Features\Banner\BaseBannerViewModel.cs" />
+    <Compile Include="Features\Button\ButtonController.cs" />
+    <Compile Include="Features\Button\ButtonQueryHandler.cs" />
+    <Compile Include="Features\Button\ButtonViewModel.cs" />
     <Compile Include="Features\Shared\Model\LinkViewModel.cs" />
     <Compile Include="Features\Banner\OneColumn\OneColumnQueryHandler.cs" />
     <Compile Include="Features\Banner\OneColumn\OneColumnViewModel.cs" />
