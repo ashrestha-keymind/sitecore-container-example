@@ -198,6 +198,7 @@
     <Content Include="App_Config\Include\Sitecore.DependenciesServices.config" />
     <Content Include="App_Config\Include\Custom.RazorViewEngine.config" />
     <Content Include="App_Config\Include\Sitecore.patch.config" />
+    <Content Include="App_Config\Include\Sitecore.Pipelines.patch.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.DataProvider.10.1.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.config" />
